@@ -1,0 +1,14 @@
+# (Opcional) Guarda tu DC por aula para no sobreescribir
+# rfluxmtx ... > ../modelo/matrices/dc_A40-1.mtx
+# rfluxmtx ... > ../modelo/matrices/dc_A40-2.mtx
+
+# 1) Vector de cielo puntual (ejemplo: 26 de marzo 12:00, DNI=700 W/m², DHI=160 W/m²)
+gendaylit 6 26 12:00 -W 700 160 -a 18.9 -o -99.2 -m -90 \
+  | genskyvec -m 4 > ../modelo/skies/sky_20250626_1200.vec
+
+# 2) Iluminancia puntual (lux) para cada aula
+for aula in A40-1 A40-2; do
+  dctimestep ../modelo/matrices/dc_${aula}.mtx ../modelo/skies/sky_20250626_1200.vec \
+    | rmtxop -fa -c 47.4 119.9 11.6 - \
+    > ../resultados/iluminancia/${aula}_20250626_1200.ill
+done
