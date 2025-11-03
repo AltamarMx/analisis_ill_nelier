@@ -1,0 +1,16 @@
+!gendaylit 11 12 +8.5 -a 18.835 -W 723 123 
+
+ skyfunc glow skydome 
+ 0 
+ 0 
+ 4 1 1 1 0 
+
+ skydome source sky 
+ 0 
+ 0 
+ 4 0 0 1 180 
+
+ skydome source grnd 
+ 0 
+ 0 
+ 4 0 0 -1 180 

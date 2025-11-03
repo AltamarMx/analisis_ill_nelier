@@ -1,0 +1,9 @@
+mkdir ../modelo/octrees
+mkdir ../modelo/matrices
+mkdir ../resultados
+mkdir ../resultados/iluminancia
+mkdir ../resultados/revision_Ib
+mkdir ../resultados/revision_Ib
+mkdir ../resultados/revision_Ib/foto
+mkdir ../resultados/revision_Ib/glare
+mkdir ../resultados/DGPs/

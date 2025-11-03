@@ -1,0 +1,14 @@
+DETAIL = MEDIUM
+INDIRECT = 0
+OCTREE = octrees/prueba.oct
+QUALITY = HIGH
+RESOLUTION = 900
+PICTURE = images/Aula40
+ZONE = Interior 24.3 31.7 2.535 12.13 4.55 8.22
+materials = materiales.rad
+scene = A40-1.rad skies/cielo_12-31-16h.rad
+VARIABILITY = HIGH
+rpict = -ab 10
+rpict = -av 0.0 0.0 0.0
+view = sur2 -vf views/A40-1S.vf
+view = norte2 -vf views/A40-1N.vf

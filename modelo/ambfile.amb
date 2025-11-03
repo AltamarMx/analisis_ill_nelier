@@ -1,0 +1,8 @@
+#?RADIANCE
+rtrace -av 0 0 0 -aw 0 -ab 0 -aa 0.2 -ad 2000 -as 500 -ar 64 octrees/aula.oct
+SOFTWARE= RADIANCE 5.2 Official Release Oct 8 2018 by LBNL
+CAPDATE= 2020:06:14 23:25:28
+GMT= 2020:06:15 04:25:28
+FORMAT=Radiance_ambval
+
+/

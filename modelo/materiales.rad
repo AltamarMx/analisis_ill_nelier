@@ -1,0 +1,61 @@
+## materiales.rad, modificado
+
+void plastic Light_grey_stone_tiles
+0
+0
+5 0.2805 0.2811 0.2644 0.0000 0.0000
+void alias Concreto_pulido Light_grey_stone_tiles
+void alias Alero_sur Concreto_pulido
+void alias ConcretoA10 Concreto_pulido
+void alias ConcretoA20 Concreto_pulido
+void alias ConcretoA40 Concreto_pulido
+void alias ConcretoA402 Concreto_pulido
+void alias Concreto_pulidopb Concreto_pulido
+
+
+void plastic White_painted_pillars
+0
+0
+5 0.8988 0.8674 0.7560 0.0054 0.0000
+void alias Muros_blancos White_painted_pillars
+void alias Edificio2 Muros_blancos
+void alias EdificioA10 Muros_blancos
+void alias EdificioA102 Muros_blancos
+void alias EdificioA20 Muros_blancos
+void alias EdificioA202 Muros_blancos
+void alias EdificioA40 Muros_blancos
+void alias EdificioA402 Muros_blancos
+void alias EdificioN1 Muros_blancos
+void alias EdificioN2 Muros_blancos
+void alias Edificiopb Muros_blancos
+void alias Muros_blancosA10 Muros_blancos
+void alias Muros_blancosA20 Muros_blancos
+void alias Muros_blancosA40 Muros_blancos
+void alias Muros_blancosA402 Muros_blancos
+void alias VA10 Muros_blancos
+void alias VA20 Muros_blancos
+void alias VA40 Muros_blancos
+void alias VA402 Muros_blancos
+
+void plastic canceles
+0
+0
+5  0.44 0.44 0.44  0.025 0.145
+void alias ProteccionesA10 canceles
+void alias ProteccionesA20 canceles
+void alias ProteccionesA40 canceles
+void alias cancelesA10 canceles
+void alias cancelesA20 canceles
+void alias cancelesA40 canceles
+void alias ventilas_cerradasA10 canceles
+void alias ventilas_cerradasA20 canceles
+void alias ventilas_cerradasA40 canceles
+
+void glass Ventana
+0
+0
+3 0.7939 0.7939 0.7939
+void alias VentanaA10 Ventana
+void alias VentanaA20 Ventana
+void alias VentanaA40 Ventana
+

@@ -1,0 +1,45 @@
+!xform ../modelo/materiales.rad
+
+
+!xform ../modelo/objects/Concreto_pulidopb.rad
+
+!xform ../modelo/objects/Edificiopb.rad
+
+!xform ../modelo/objects/Alero_sur.rad
+
+!xform ../modelo/objects/EdificioN1.rad
+
+!xform -t 16 0 0 ../modelo/objects/Muros_blancosA20.rad
+
+!xform -t 16 0 0 ../modelo/objects/ConcretoA20.rad
+
+!xform -t 16 0 0 ../modelo/objects/EdificioA20.rad
+
+!xform ../modelo/objects/EdificioA402.rad
+
+!xform -t 16 0 0 ../modelo/objects/cancelesA20.rad
+
+!xform -t 16 0 0 ../modelo/objects/VentanaA20.rad
+
+!xform ../modelo/objects/EdificioN2.rad
+
+!xform ../modelo/objects/EdificioA40.rad
+
+!xform ../modelo/objects/EdificioA10.rad
+
+!xform -t 16 0 0 ../modelo/objects/ProteccionesA20.rad
+
+!xform ../modelo/objects/EdificioA102.rad
+
+!xform ../modelo/objects/EdificioA402.rad
+
+!xform ../modelo/objects/VA40.rad
+
+!xform -t -16 0 0 ../modelo/objects/EdificioA202.rad
+
+!xform ../modelo/objects/VA10.rad
+
+!xform ../modelo/objects/VA402.rad
+
+!xform -t 16 0 0 ../modelo/objects/ventilas_cerradasA20.rad
+
