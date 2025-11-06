@@ -1,0 +1,21 @@
+# Sky generado por run_radiance_A40-1_codex.sh
+# Fecha: 2024-6-26 10:0 (decimal 10.500)
+# gendaylit 6 26 10.500 -W 64 368 -a 18.850000 -o -99.140000 -m -90.000000
+# Local solar time: 11.07
+# Solar altitude and azimuth: 76.2 -111.6
+# epsilon, delta, atmospheric precipitable water content : 1.1714 0.2865 2.0000 
+
+void light solar
+0
+0
+3 5.028e+05 5.028e+05 5.028e+05
+
+solar source sun
+0
+0
+4 0.221625 0.087630 0.971187 0.533000
+
+void brightfunc skyfunc
+2 skybright perezlum.cal
+0
+10 2.936e+01 1.330e+01 -0.926646 -1.254416 8.856331 -2.204913 0.186290 0.221625 0.087630 0.971187 
