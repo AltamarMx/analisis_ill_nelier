@@ -11,4 +11,5 @@ dependencies = [
     "numpy>=2.2.6",
     "pandas>=2.3.3",
     "pyarrow>=22.0.0",
+    "windrose>=1.9.2",
 ]

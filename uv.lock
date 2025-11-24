@@ -2422,6 +2422,7 @@ dependencies = [
     { name = "numpy", version = "2.3.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
     { name = "pandas" },
     { name = "pyarrow" },
+    { name = "windrose" },
 ]
 
 [package.metadata]
@@ -2432,6 +2433,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.6" },
     { name = "pandas", specifier = ">=2.3.3" },
     { name = "pyarrow", specifier = ">=22.0.0" },
+    { name = "windrose", specifier = ">=1.9.2" },
 ]
 
 [[package]]
@@ -2657,4 +2659,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/41/53/2e0253c5efd69c9656b1843892052a31c36d37ad42812b5da45c62191f7e/widgetsnbextension-4.0.14.tar.gz", hash = "sha256:a3629b04e3edb893212df862038c7232f62973373869db5084aed739b437b5af", size = 1097428, upload-time = "2025-04-10T13:01:25.628Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ca/51/5447876806d1088a0f8f71e16542bf350918128d0a69437df26047c8e46f/widgetsnbextension-4.0.14-py3-none-any.whl", hash = "sha256:4875a9eaf72fbf5079dc372a51a9f268fc38d46f767cbf85c43a36da5cb9b575", size = 2196503, upload-time = "2025-04-10T13:01:23.086Z" },
+]
+
+[[package]]
+name = "windrose"
+version = "1.9.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "matplotlib" },
+    { name = "numpy", version = "2.2.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.11'" },
+    { name = "numpy", version = "2.3.4", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.11'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a5/9e/94a43a5bbbb59373e2f9c63a143cd89dafd5414c3658658f85809e7a1a83/windrose-1.9.2.tar.gz", hash = "sha256:70200afe01721bfe4a10ea26cbcc3e5c23800566921bbb8a34b0f68ade488bfa", size = 25327, upload-time = "2024-07-30T09:56:04.674Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/fb/5e/c27fbd92d635d5ee4789cb91b82e475a59a0dc86eb8a279e3397d4cc8d54/windrose-1.9.2-py3-none-any.whl", hash = "sha256:0f93d22233b281929dff9621366121622a02dd7b7f345e16a869e9947b9559fd", size = 20314, upload-time = "2024-07-30T09:56:03.47Z" },
 ]

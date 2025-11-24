@@ -12,6 +12,5 @@ wheels/
 # Files
 
 *.vec
-*.ill
 *.mtx
 *.smx

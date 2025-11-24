@@ -1,0 +1,4 @@
+#?RADIANCE
+oconv -f ../modelo/materiales_black.rad ../modelo/A40-1_black.rad ../modelo/skies/suns.rad ../modelo/materiales.rad
+FORMAT=Radiance_octree
+

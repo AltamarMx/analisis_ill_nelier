@@ -69,9 +69,10 @@ if [ -z "${EPW_LAT}" ] || [ -z "${EPW_LON}" ] || [ -z "${EPW_TZ}" ]; then
     exit 1
 fi
 
-LATITUDE=$(awk -v v="${EPW_LAT}" 'BEGIN { printf("%.6f", v); }')
-LONGITUDE=$(awk -v v="${EPW_LON}" 'BEGIN { printf("%.6f", v); }')
-MERIDIAN=$(awk -v tz="${EPW_TZ}" 'BEGIN { printf("%.6f", tz * 15.0); }')
+LATITUDE=$(awk -v v="${EPW_LAT}" 'BEGIN { printf("%.6f", v); }')    # N positivo (igual que EPW)
+LONGITUDE=$(awk -v v="${EPW_LON}" 'BEGIN { printf("%.6f", -v); }')  # Radiance: Oeste positivo
+MERIDIAN=$(awk -v tz="${EPW_TZ}" 'BEGIN { printf("%.6f", -tz * 15.0); }') # Radiance: Oeste positivo
+
 
 # Recuperamos irradiancia directa normal y difusa horizontal para el instante deseado.
 read -r DIR_NORM DIFF_HORIZ <<< "$(awk -v m="${TARGET_MONTH}" -v d="${TARGET_DAY}" -v target="${LOCAL_DECIMAL}" '
